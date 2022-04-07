@@ -10,8 +10,10 @@ For this project, I am creating a Solidity smart contract that accepts two user 
 
 1. Use the `setAccounts` function to define the authorized Ethereum address that will be able to withdraw funds from your contract.
 
+    > ```text
     > Dummy account1 address: 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb
     > Dummy account2 address: 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0
+    > ```
 
 2. Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to your contract:
 
